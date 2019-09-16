@@ -3,6 +3,6 @@ def line(array)
     puts "The line is currently empty."
   else
     array.each_with_index {|person, number| array << "#{number}. #{person}"}
-    puts "The line is currently: #{array}"
+    puts array
   end
 end
