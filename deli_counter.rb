@@ -11,5 +11,4 @@ end
 def take_a_number(array, string)
   line = []
   line.push(string)
-  end
 end
