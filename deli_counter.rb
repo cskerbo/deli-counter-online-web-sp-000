@@ -9,7 +9,7 @@ def line(array)
 end
 
 def take_a_number(array, string)
-  line = []
-  array.each {|person| line << person}
-  line
+  if line(array) = nil
+    line(array).push(string)
+  end
 end
