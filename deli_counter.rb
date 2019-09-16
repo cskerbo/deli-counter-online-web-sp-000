@@ -10,6 +10,6 @@ end
 
 def take_a_number(array, string)
   if line(array) == "The line is currently empty."
-    line(string)
+    line.push(string)
   end
 end
