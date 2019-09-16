@@ -4,4 +4,5 @@ def line(array)
     puts "The line is empty."
   else
     puts array
+  end
 end
