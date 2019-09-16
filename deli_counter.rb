@@ -7,3 +7,8 @@ def line(array)
     puts "The line is currently: #{line.join(" ")}"
   end
 end
+
+def take_a_number(array)
+  line = []
+  if array.length < 1
+    line.push
