@@ -9,5 +9,7 @@ def line(array)
 end
 
 def take_a_number(array, string)
-  line(array)
+  line = []
+  line << string
+  puts line
 end
