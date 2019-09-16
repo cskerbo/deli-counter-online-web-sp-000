@@ -1,6 +1,6 @@
 def line(array)
   array = []
-  array.each do |person| array << person
+  array.each {|person| array << person}
   if array.length < 1
     puts "The line is currently empty."
   else
