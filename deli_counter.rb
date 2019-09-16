@@ -10,6 +10,6 @@ end
 
 def take_a_number(array, string)
   line = []
-  line << string
+  line << "Welcome #{string}. You are number #{line[index]} in line."
   puts line
 end
