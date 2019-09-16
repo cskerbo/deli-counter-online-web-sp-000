@@ -1,6 +1,6 @@
 def line(array)
   array = []
-  if array == nil
+  if array.length < 1
     puts "The line is empty."
   else
     puts array
