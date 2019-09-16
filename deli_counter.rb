@@ -10,6 +10,6 @@ end
 
 def take_a_number(array, string)
   line = []
-  array.each_with_index {|person, number| line << "Welcome #{person}. You are number #{number+1} in line."}
+  array.each_with_index {|person, number| line << string}
   puts line
 end
