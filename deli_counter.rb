@@ -10,6 +10,6 @@ end
 
 def take_a_number(array, string)
   if array.length < 1
-    line.push(array)
+    array.push
   end
 end
