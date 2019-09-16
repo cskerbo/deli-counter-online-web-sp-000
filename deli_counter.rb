@@ -10,6 +10,7 @@ end
 
 def take_a_number(array, string)
   line = []
+  array.each {|person| line << person}
   line.push(string)
   line
 end
