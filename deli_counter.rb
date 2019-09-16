@@ -4,7 +4,6 @@ def line(array)
     puts "The line is currently empty."
   else
     array.each_with_index {|person, number| line << "#{number+1}. #{person}"}
-    line.join
-    puts "The line is currently: #{line}"
+    puts "The line is currently: #{line.join}"
   end
 end
