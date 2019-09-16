@@ -11,6 +11,6 @@ end
 def take_a_number(array, string)
   line = []
   if line(array) == "The line is currently empty."
-    line.push(string)
+    line[string]
   end
 end
