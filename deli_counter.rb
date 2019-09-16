@@ -11,6 +11,5 @@ end
 def take_a_number(array, string)
   line = []
   array.each {|person| line << person}
-  line.push(person)
   line
 end
